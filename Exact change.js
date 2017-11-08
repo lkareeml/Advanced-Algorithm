@@ -16,7 +16,7 @@ function checkCashRegister(price, cash, cid) {
         cid[z][1] -= CoinNum[z][1];
         giveChange += CoinNum[z][1];
       }
-      xB.push([CoinNum[z][0], x]);
+      xB.push([CoinNum[z][0], giveChange]);
     }
 }
   
